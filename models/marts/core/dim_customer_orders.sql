@@ -4,7 +4,7 @@ with customers as (
     SELECT * FROM {{ ref('stg_customers') }}
 ),
 orders as (
-    SELECT * FROM {{ ref('stg_orders') }}
+    SELECT * FROM {{ ref('fct_orders') }}
 ),
 
 customer_orders as (
