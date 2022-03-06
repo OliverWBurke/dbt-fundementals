@@ -10062,3 +10062,930 @@ having count(*) > 1
 2022-03-06 11:36:23.513821 (Thread-431): handling status request
 2022-03-06 11:36:23.514191 (Thread-431): 11:36:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced89a7f70>]}
 2022-03-06 11:36:23.514658 (Thread-431): sending response (<Response 1598 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:36:25.465163 (Thread-432): 11:36:25  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-06 11:36:25.465388 (Thread-432): 11:36:25  Partial parsing enabled, no changes found, skipping parsing
+2022-03-06 11:36:25.471631 (Thread-432): 11:36:25  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8840550>]}
+2022-03-06 11:36:25.983351 (Thread-433): handling status request
+2022-03-06 11:36:25.983731 (Thread-433): 11:36:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced883eeb0>]}
+2022-03-06 11:36:25.984199 (Thread-433): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:36:26.242841 (Thread-434): handling status request
+2022-03-06 11:36:26.243242 (Thread-434): 11:36:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced883eeb0>]}
+2022-03-06 11:36:26.243742 (Thread-434): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:40:48.255059 (Thread-435): 11:40:48  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-03-06 11:40:48.256708 (Thread-435): 11:40:48  Partial parsing: added file: dbt_fundementals_course://tests/assert_last_name_format.sql
+2022-03-06 11:40:48.487946 (Thread-435): 11:40:48  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8af7fa0>]}
+2022-03-06 11:40:48.883251 (Thread-436): handling status request
+2022-03-06 11:40:48.883656 (Thread-436): 11:40:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8905a90>]}
+2022-03-06 11:40:48.884167 (Thread-436): sending response (<Response 1273 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:40:48.976156 (Thread-437): handling status request
+2022-03-06 11:40:48.976556 (Thread-437): 11:40:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8905b20>]}
+2022-03-06 11:40:48.977037 (Thread-437): sending response (<Response 1273 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:44:23.193383 (Thread-438): 11:44:23  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-03-06 11:44:23.194971 (Thread-438): 11:44:23  Partial parsing: updated file: dbt_fundementals_course://tests/assert_last_name_format.sql
+2022-03-06 11:44:23.202038 (Thread-438): 11:44:23  [WARNING]: Test 'test.dbt_fundementals_course.assert_last_name_format' (tests/assert_last_name_format.sql) depends on a node named 'stg_customer' which was not found
+2022-03-06 11:44:23.240498 (Thread-438): 11:44:23  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8e7e070>]}
+2022-03-06 11:44:23.768187 (Thread-439): handling status request
+2022-03-06 11:44:23.768574 (Thread-439): 11:44:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced878c970>]}
+2022-03-06 11:44:23.789506 (Thread-439): sending response (<Response 1703 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:44:23.879536 (Thread-440): handling status request
+2022-03-06 11:44:23.879941 (Thread-440): 11:44:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced878c550>]}
+2022-03-06 11:44:23.880440 (Thread-440): sending response (<Response 1703 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:44:33.552935 (Thread-441): handling status request
+2022-03-06 11:44:33.553328 (Thread-441): 11:44:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced878c700>]}
+2022-03-06 11:44:33.553858 (Thread-441): sending response (<Response 1703 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:44:33.799423 (Thread-442): handling status request
+2022-03-06 11:44:33.799824 (Thread-442): 11:44:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced887ad30>]}
+2022-03-06 11:44:33.800326 (Thread-442): sending response (<Response 1703 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:44:33.810149 (Thread-443): handling cli_args request
+2022-03-06 11:44:33.810488 (Thread-443): 11:44:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced887aeb0>]}
+2022-03-06 11:44:36.025888 (Thread-443): sending response (<Response 138 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:44:36.126796 (MainThread): 11:44:36  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-06 11:44:36.127237 (MainThread): 11:44:36  Partial parsing enabled, no changes found, skipping parsing
+2022-03-06 11:44:36.134455 (MainThread): 11:44:36  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ce96b50c-3a24-4cc6-9e22-7b5fa4b7cbf1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa88d2f6f40>]}
+2022-03-06 11:44:36.161370 (MainThread): 11:44:36  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ce96b50c-3a24-4cc6-9e22-7b5fa4b7cbf1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa88d3566d0>]}
+2022-03-06 11:44:36.161676 (MainThread): 11:44:36  Found 6 models, 28 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-03-06 11:44:36.162187 (MainThread): 11:44:36  The selection criterion 'stg_customer' does not match any nodes
+2022-03-06 11:44:36.163332 (MainThread): 11:44:36  
+2022-03-06 11:44:36.163443 (MainThread): 11:44:36  [WARNING]: Nothing to do. Try checking your model configs and model specification args
+2022-03-06 11:44:36.261904 (Thread-444): handling poll request
+2022-03-06 11:44:36.262398 (Thread-444): 11:44:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced878c130>]}
+2022-03-06 11:44:36.263284 (Thread-444): sending response (<Response 3126 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:44:37.555638 (Thread-445): handling poll request
+2022-03-06 11:44:37.556030 (Thread-445): 11:44:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced878cac0>]}
+2022-03-06 11:44:37.556589 (Thread-445): sending response (<Response 429 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:44:38.119200 (Thread-446): handling status request
+2022-03-06 11:44:38.119598 (Thread-446): 11:44:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced878c1c0>]}
+2022-03-06 11:44:38.120147 (Thread-446): sending response (<Response 1703 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:44:38.141783 (Thread-447): handling status request
+2022-03-06 11:44:38.142136 (Thread-447): 11:44:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8abb160>]}
+2022-03-06 11:44:38.142591 (Thread-447): sending response (<Response 1703 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:45:29.351386 (Thread-448): handling status request
+2022-03-06 11:45:29.351826 (Thread-448): 11:45:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8840bb0>]}
+2022-03-06 11:45:29.352334 (Thread-448): sending response (<Response 1703 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:45:29.605557 (Thread-449): handling cli_args request
+2022-03-06 11:45:29.605995 (Thread-449): 11:45:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced88bb130>]}
+2022-03-06 11:45:29.613038 (Thread-450): handling status request
+2022-03-06 11:45:29.613716 (Thread-450): 11:45:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced887a340>]}
+2022-03-06 11:45:29.614428 (Thread-450): sending response (<Response 1703 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:45:31.893918 (Thread-449): sending response (<Response 138 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:45:31.996757 (MainThread): 11:45:31  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-06 11:45:31.997190 (MainThread): 11:45:31  Partial parsing enabled, no changes found, skipping parsing
+2022-03-06 11:45:32.004725 (MainThread): 11:45:32  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e3099046-5007-438a-919f-5e7342884029', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028f136ee0>]}
+2022-03-06 11:45:32.032035 (MainThread): 11:45:32  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e3099046-5007-438a-919f-5e7342884029', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028f195c70>]}
+2022-03-06 11:45:32.032382 (MainThread): 11:45:32  Found 6 models, 28 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-03-06 11:45:32.034403 (MainThread): 11:45:32  
+2022-03-06 11:45:32.034754 (MainThread): 11:45:32  Acquiring new snowflake connection "master"
+2022-03-06 11:45:32.035987 (ThreadPoolExecutor-1_0): 11:45:32  Acquiring new snowflake connection "list_analytics_dbt_oburke"
+2022-03-06 11:45:32.048355 (ThreadPoolExecutor-1_0): 11:45:32  Using snowflake connection "list_analytics_dbt_oburke"
+2022-03-06 11:45:32.048487 (ThreadPoolExecutor-1_0): 11:45:32  On list_analytics_dbt_oburke: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "connection_name": "list_analytics_dbt_oburke"} */
+
+    show terse objects in analytics.dbt_oburke
+2022-03-06 11:45:32.048573 (ThreadPoolExecutor-1_0): 11:45:32  Opening a new connection, currently in state init
+2022-03-06 11:45:32.115474 (Thread-451): handling poll request
+2022-03-06 11:45:32.115932 (Thread-451): 11:45:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced899b310>]}
+2022-03-06 11:45:32.116884 (Thread-451): sending response (<Response 4194 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:45:32.987614 (ThreadPoolExecutor-1_0): 11:45:32  SQL status: SUCCESS 6 in 0.94 seconds
+2022-03-06 11:45:32.989819 (ThreadPoolExecutor-1_0): 11:45:32  On list_analytics_dbt_oburke: Close
+2022-03-06 11:45:33.202207 (MainThread): 11:45:33  Concurrency: 4 threads (target='default')
+2022-03-06 11:45:33.202407 (MainThread): 11:45:33  
+2022-03-06 11:45:33.205544 (Thread-1): 11:45:33  Began running node test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:45:33.205794 (Thread-1): 11:45:33  1 of 5 START test not_null_stg_customers_CUSTOMER_ID............................ [RUN]
+2022-03-06 11:45:33.206137 (Thread-1): 11:45:33  Acquiring new snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"
+2022-03-06 11:45:33.206253 (Thread-1): 11:45:33  Began compiling node test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:45:33.206386 (Thread-1): 11:45:33  Compiling test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:45:33.210658 (Thread-2): 11:45:33  Began running node test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:45:33.210831 (Thread-2): 11:45:33  2 of 5 START test not_null_stg_customers_FIRST_NAME............................. [RUN]
+2022-03-06 11:45:33.211108 (Thread-2): 11:45:33  Acquiring new snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"
+2022-03-06 11:45:33.211198 (Thread-2): 11:45:33  Began compiling node test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:45:33.211285 (Thread-2): 11:45:33  Compiling test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:45:33.225525 (Thread-2): 11:45:33  Writing injected SQL for node "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"
+2022-03-06 11:45:33.227836 (Thread-1): 11:45:33  Writing injected SQL for node "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"
+2022-03-06 11:45:33.228517 (Thread-3): 11:45:33  Began running node test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:45:33.228768 (Thread-3): 11:45:33  3 of 5 START test not_null_stg_customers_LAST_NAME.............................. [RUN]
+2022-03-06 11:45:33.229096 (Thread-3): 11:45:33  Acquiring new snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"
+2022-03-06 11:45:33.229188 (Thread-3): 11:45:33  Began compiling node test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:45:33.229273 (Thread-3): 11:45:33  Compiling test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:45:33.233545 (Thread-4): 11:45:33  Began running node test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:45:33.233738 (Thread-4): 11:45:33  4 of 5 START test relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_ [RUN]
+2022-03-06 11:45:33.234041 (Thread-4): 11:45:33  Acquiring new snowflake connection "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"
+2022-03-06 11:45:33.234136 (Thread-4): 11:45:33  Began compiling node test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:45:33.234220 (Thread-4): 11:45:33  Compiling test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:45:33.241817 (Thread-4): 11:45:33  Writing injected SQL for node "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"
+2022-03-06 11:45:33.233358 (Thread-3): 11:45:33  Writing injected SQL for node "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"
+2022-03-06 11:45:33.249166 (Thread-2): 11:45:33  finished collecting timing info
+2022-03-06 11:45:33.249397 (Thread-2): 11:45:33  Began executing node test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:45:33.254406 (Thread-1): 11:45:33  finished collecting timing info
+2022-03-06 11:45:33.254593 (Thread-1): 11:45:33  Began executing node test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:45:33.264784 (Thread-4): 11:45:33  finished collecting timing info
+2022-03-06 11:45:33.265012 (Thread-4): 11:45:33  Began executing node test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:45:33.280361 (Thread-2): 11:45:33  Writing runtime SQL for node "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"
+2022-03-06 11:45:33.281269 (Thread-1): 11:45:33  Writing runtime SQL for node "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"
+2022-03-06 11:45:33.281942 (Thread-4): 11:45:33  Writing runtime SQL for node "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"
+2022-03-06 11:45:33.286668 (Thread-3): 11:45:33  finished collecting timing info
+2022-03-06 11:45:33.286832 (Thread-3): 11:45:33  Began executing node test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:45:33.288604 (Thread-3): 11:45:33  Writing runtime SQL for node "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"
+2022-03-06 11:45:33.293550 (Thread-1): 11:45:33  Using snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"
+2022-03-06 11:45:33.293676 (Thread-1): 11:45:33  On test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select *
+from analytics.dbt_oburke.stg_customers
+where CUSTOMER_ID is null
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:45:33.293807 (Thread-1): 11:45:33  Opening a new connection, currently in state closed
+2022-03-06 11:45:33.295447 (Thread-4): 11:45:33  Using snowflake connection "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"
+2022-03-06 11:45:33.295560 (Thread-4): 11:45:33  On test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with child as (
+    select CUSTOMER_ID as from_field
+    from analytics.dbt_oburke.stg_orders
+    where CUSTOMER_ID is not null
+),
+
+parent as (
+    select customer_id as to_field
+    from analytics.dbt_oburke.stg_customers
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:45:33.295644 (Thread-4): 11:45:33  Opening a new connection, currently in state init
+2022-03-06 11:45:33.296830 (Thread-2): 11:45:33  Using snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"
+2022-03-06 11:45:33.296956 (Thread-2): 11:45:33  On test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select *
+from analytics.dbt_oburke.stg_customers
+where FIRST_NAME is null
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:45:33.297041 (Thread-2): 11:45:33  Opening a new connection, currently in state init
+2022-03-06 11:45:33.304476 (Thread-3): 11:45:33  Using snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"
+2022-03-06 11:45:33.304631 (Thread-3): 11:45:33  On test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select *
+from analytics.dbt_oburke.stg_customers
+where LAST_NAME is null
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:45:33.304755 (Thread-3): 11:45:33  Opening a new connection, currently in state init
+2022-03-06 11:45:33.344621 (Thread-452): handling poll request
+2022-03-06 11:45:33.345032 (Thread-452): 11:45:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8d63670>]}
+2022-03-06 11:45:33.346622 (Thread-452): sending response (<Response 26864 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:45:34.571817 (Thread-453): handling poll request
+2022-03-06 11:45:34.572215 (Thread-453): 11:45:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced887a3d0>]}
+2022-03-06 11:45:34.572722 (Thread-453): sending response (<Response 309 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:45:34.621205 (Thread-4): 11:45:34  SQL status: SUCCESS 1 in 1.33 seconds
+2022-03-06 11:45:34.623912 (Thread-4): 11:45:34  finished collecting timing info
+2022-03-06 11:45:34.624122 (Thread-4): 11:45:34  On test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419: Close
+2022-03-06 11:45:34.650230 (Thread-1): 11:45:34  SQL status: SUCCESS 1 in 1.36 seconds
+2022-03-06 11:45:34.651872 (Thread-1): 11:45:34  finished collecting timing info
+2022-03-06 11:45:34.652059 (Thread-1): 11:45:34  On test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3: Close
+2022-03-06 11:45:34.666639 (Thread-2): 11:45:34  SQL status: SUCCESS 1 in 1.37 seconds
+2022-03-06 11:45:34.668262 (Thread-2): 11:45:34  finished collecting timing info
+2022-03-06 11:45:34.668446 (Thread-2): 11:45:34  On test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b: Close
+2022-03-06 11:45:34.710835 (Thread-3): 11:45:34  SQL status: SUCCESS 1 in 1.41 seconds
+2022-03-06 11:45:34.712594 (Thread-3): 11:45:34  finished collecting timing info
+2022-03-06 11:45:34.712766 (Thread-3): 11:45:34  On test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6: Close
+2022-03-06 11:45:34.842947 (Thread-4): 11:45:34  4 of 5 PASS relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_ [PASS in 1.61s]
+2022-03-06 11:45:34.843155 (Thread-4): 11:45:34  Finished running node test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:45:34.843304 (Thread-4): 11:45:34  Began running node test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:45:34.843432 (Thread-4): 11:45:34  5 of 5 START test unique_stg_customers_CUSTOMER_ID.............................. [RUN]
+2022-03-06 11:45:34.843672 (Thread-4): 11:45:34  Acquiring new snowflake connection "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"
+2022-03-06 11:45:34.843762 (Thread-4): 11:45:34  Began compiling node test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:45:34.843853 (Thread-4): 11:45:34  Compiling test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:45:34.851017 (Thread-4): 11:45:34  Writing injected SQL for node "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"
+2022-03-06 11:45:34.864039 (Thread-4): 11:45:34  finished collecting timing info
+2022-03-06 11:45:34.864268 (Thread-4): 11:45:34  Began executing node test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:45:34.866004 (Thread-4): 11:45:34  Writing runtime SQL for node "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"
+2022-03-06 11:45:34.868402 (Thread-1): 11:45:34  1 of 5 PASS not_null_stg_customers_CUSTOMER_ID.................................. [PASS in 1.66s]
+2022-03-06 11:45:34.868569 (Thread-1): 11:45:34  Finished running node test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:45:34.877895 (Thread-4): 11:45:34  Using snowflake connection "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"
+2022-03-06 11:45:34.878054 (Thread-4): 11:45:34  On test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    CUSTOMER_ID as unique_field,
+    count(*) as n_records
+
+from analytics.dbt_oburke.stg_customers
+where CUSTOMER_ID is not null
+group by CUSTOMER_ID
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:45:34.878152 (Thread-4): 11:45:34  Opening a new connection, currently in state closed
+2022-03-06 11:45:34.882256 (Thread-2): 11:45:34  2 of 5 PASS not_null_stg_customers_FIRST_NAME................................... [PASS in 1.67s]
+2022-03-06 11:45:34.882434 (Thread-2): 11:45:34  Finished running node test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:45:34.923572 (Thread-3): 11:45:34  3 of 5 PASS not_null_stg_customers_LAST_NAME.................................... [PASS in 1.69s]
+2022-03-06 11:45:34.923743 (Thread-3): 11:45:34  Finished running node test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:45:35.544422 (Thread-4): 11:45:35  SQL status: SUCCESS 1 in 0.67 seconds
+2022-03-06 11:45:35.546111 (Thread-4): 11:45:35  finished collecting timing info
+2022-03-06 11:45:35.546290 (Thread-4): 11:45:35  On test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914: Close
+2022-03-06 11:45:35.768935 (Thread-4): 11:45:35  5 of 5 PASS unique_stg_customers_CUSTOMER_ID.................................... [PASS in 0.93s]
+2022-03-06 11:45:35.769138 (Thread-4): 11:45:35  Finished running node test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:45:35.771072 (MainThread): 11:45:35  Acquiring new snowflake connection "master"
+2022-03-06 11:45:35.771619 (MainThread): 11:45:35  
+2022-03-06 11:45:35.771788 (MainThread): 11:45:35  Finished running 5 tests in 3.74s.
+2022-03-06 11:45:35.771896 (MainThread): 11:45:35  Connection 'master' was properly closed.
+2022-03-06 11:45:35.771970 (MainThread): 11:45:35  Connection 'test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3' was properly closed.
+2022-03-06 11:45:35.772037 (MainThread): 11:45:35  Connection 'test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b' was properly closed.
+2022-03-06 11:45:35.772102 (MainThread): 11:45:35  Connection 'test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6' was properly closed.
+2022-03-06 11:45:35.772164 (MainThread): 11:45:35  Connection 'test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914' was properly closed.
+2022-03-06 11:45:35.806027 (Thread-454): handling poll request
+2022-03-06 11:45:35.806395 (Thread-454): 11:45:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8d63ca0>]}
+2022-03-06 11:45:35.807417 (Thread-454): sending response (<Response 20401 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:45:35.826535 (MainThread): 11:45:35  
+2022-03-06 11:45:35.826771 (MainThread): 11:45:35  Completed successfully
+2022-03-06 11:45:35.826875 (MainThread): 11:45:35  
+2022-03-06 11:45:35.826973 (MainThread): 11:45:35  Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+2022-03-06 11:45:37.024067 (Thread-455): handling poll request
+2022-03-06 11:45:37.024465 (Thread-455): 11:45:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8d84040>]}
+2022-03-06 11:45:37.025801 (Thread-455): sending response (<Response 15772 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:45:37.647126 (Thread-456): handling status request
+2022-03-06 11:45:37.647530 (Thread-456): 11:45:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8d84190>]}
+2022-03-06 11:45:37.648098 (Thread-456): sending response (<Response 1703 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:45:37.743585 (Thread-457): handling status request
+2022-03-06 11:45:37.743973 (Thread-457): 11:45:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8d8d8e0>]}
+2022-03-06 11:45:37.744469 (Thread-457): sending response (<Response 1703 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:45:57.943102 (Thread-458): 11:45:57  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-06 11:45:57.943332 (Thread-458): 11:45:57  Partial parsing enabled, no changes found, skipping parsing
+2022-03-06 11:45:57.949980 (Thread-458): 11:45:57  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8f9e4c0>]}
+2022-03-06 11:45:58.440201 (Thread-459): handling status request
+2022-03-06 11:45:58.440565 (Thread-459): 11:45:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8fcf610>]}
+2022-03-06 11:45:58.441030 (Thread-459): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:45:58.506031 (Thread-460): handling status request
+2022-03-06 11:45:58.506409 (Thread-460): 11:45:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8fcf730>]}
+2022-03-06 11:45:58.506891 (Thread-460): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:01.324713 (Thread-461): handling status request
+2022-03-06 11:46:01.325086 (Thread-461): 11:46:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8fcf130>]}
+2022-03-06 11:46:01.325545 (Thread-461): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:01.633112 (Thread-462): handling status request
+2022-03-06 11:46:01.633478 (Thread-462): 11:46:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8ef50a0>]}
+2022-03-06 11:46:01.633984 (Thread-462): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:01.644486 (Thread-463): handling cli_args request
+2022-03-06 11:46:01.644842 (Thread-463): 11:46:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8ef5220>]}
+2022-03-06 11:46:04.007228 (Thread-463): sending response (<Response 138 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:04.111099 (MainThread): 11:46:04  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-06 11:46:04.111545 (MainThread): 11:46:04  Partial parsing enabled, no changes found, skipping parsing
+2022-03-06 11:46:04.119506 (MainThread): 11:46:04  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f55fccd5-d71c-40f8-8502-7b70b119278e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd13fc77e80>]}
+2022-03-06 11:46:04.148013 (MainThread): 11:46:04  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f55fccd5-d71c-40f8-8502-7b70b119278e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd13fcd8190>]}
+2022-03-06 11:46:04.148516 (MainThread): 11:46:04  Found 6 models, 28 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-03-06 11:46:04.151388 (MainThread): 11:46:04  
+2022-03-06 11:46:04.151955 (MainThread): 11:46:04  Acquiring new snowflake connection "master"
+2022-03-06 11:46:04.153540 (ThreadPoolExecutor-1_0): 11:46:04  Acquiring new snowflake connection "list_analytics_dbt_oburke"
+2022-03-06 11:46:04.166760 (ThreadPoolExecutor-1_0): 11:46:04  Using snowflake connection "list_analytics_dbt_oburke"
+2022-03-06 11:46:04.166906 (ThreadPoolExecutor-1_0): 11:46:04  On list_analytics_dbt_oburke: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "connection_name": "list_analytics_dbt_oburke"} */
+
+    show terse objects in analytics.dbt_oburke
+2022-03-06 11:46:04.166995 (ThreadPoolExecutor-1_0): 11:46:04  Opening a new connection, currently in state init
+2022-03-06 11:46:04.242425 (Thread-464): handling poll request
+2022-03-06 11:46:04.242899 (Thread-464): 11:46:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8fcf4f0>]}
+2022-03-06 11:46:04.243875 (Thread-464): sending response (<Response 4194 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:05.093363 (ThreadPoolExecutor-1_0): 11:46:05  SQL status: SUCCESS 6 in 0.93 seconds
+2022-03-06 11:46:05.095668 (ThreadPoolExecutor-1_0): 11:46:05  On list_analytics_dbt_oburke: Close
+2022-03-06 11:46:05.311651 (MainThread): 11:46:05  Concurrency: 4 threads (target='default')
+2022-03-06 11:46:05.311849 (MainThread): 11:46:05  
+2022-03-06 11:46:05.315136 (Thread-1): 11:46:05  Began running node test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:46:05.315361 (Thread-1): 11:46:05  1 of 5 START test not_null_stg_customers_CUSTOMER_ID............................ [RUN]
+2022-03-06 11:46:05.315693 (Thread-1): 11:46:05  Acquiring new snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"
+2022-03-06 11:46:05.315801 (Thread-1): 11:46:05  Began compiling node test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:46:05.315922 (Thread-1): 11:46:05  Compiling test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:46:05.325344 (Thread-2): 11:46:05  Began running node test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:46:05.325544 (Thread-2): 11:46:05  2 of 5 START test not_null_stg_customers_FIRST_NAME............................. [RUN]
+2022-03-06 11:46:05.325911 (Thread-2): 11:46:05  Acquiring new snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"
+2022-03-06 11:46:05.326016 (Thread-2): 11:46:05  Began compiling node test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:46:05.326104 (Thread-2): 11:46:05  Compiling test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:46:05.332483 (Thread-1): 11:46:05  Writing injected SQL for node "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"
+2022-03-06 11:46:05.332776 (Thread-3): 11:46:05  Began running node test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:46:05.332946 (Thread-3): 11:46:05  3 of 5 START test not_null_stg_customers_LAST_NAME.............................. [RUN]
+2022-03-06 11:46:05.333231 (Thread-3): 11:46:05  Acquiring new snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"
+2022-03-06 11:46:05.333324 (Thread-3): 11:46:05  Began compiling node test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:46:05.333411 (Thread-3): 11:46:05  Compiling test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:46:05.336670 (Thread-3): 11:46:05  Writing injected SQL for node "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"
+2022-03-06 11:46:05.336922 (Thread-4): 11:46:05  Began running node test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:46:05.337061 (Thread-4): 11:46:05  4 of 5 START test relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_ [RUN]
+2022-03-06 11:46:05.337316 (Thread-4): 11:46:05  Acquiring new snowflake connection "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"
+2022-03-06 11:46:05.337425 (Thread-4): 11:46:05  Began compiling node test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:46:05.337549 (Thread-4): 11:46:05  Compiling test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:46:05.345359 (Thread-4): 11:46:05  Writing injected SQL for node "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"
+2022-03-06 11:46:05.345892 (Thread-2): 11:46:05  Writing injected SQL for node "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"
+2022-03-06 11:46:05.350694 (Thread-1): 11:46:05  finished collecting timing info
+2022-03-06 11:46:05.350887 (Thread-1): 11:46:05  Began executing node test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:46:05.366755 (Thread-4): 11:46:05  finished collecting timing info
+2022-03-06 11:46:05.366972 (Thread-4): 11:46:05  Began executing node test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:46:05.370776 (Thread-4): 11:46:05  Writing runtime SQL for node "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"
+2022-03-06 11:46:05.371045 (Thread-2): 11:46:05  finished collecting timing info
+2022-03-06 11:46:05.371205 (Thread-2): 11:46:05  Began executing node test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:46:05.372729 (Thread-2): 11:46:05  Writing runtime SQL for node "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"
+2022-03-06 11:46:05.372927 (Thread-3): 11:46:05  finished collecting timing info
+2022-03-06 11:46:05.373047 (Thread-3): 11:46:05  Began executing node test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:46:05.374504 (Thread-3): 11:46:05  Writing runtime SQL for node "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"
+2022-03-06 11:46:05.375654 (Thread-1): 11:46:05  Writing runtime SQL for node "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"
+2022-03-06 11:46:05.388883 (Thread-3): 11:46:05  Using snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"
+2022-03-06 11:46:05.389058 (Thread-3): 11:46:05  On test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select *
+from analytics.dbt_oburke.stg_customers
+where LAST_NAME is null
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:46:05.389164 (Thread-3): 11:46:05  Opening a new connection, currently in state init
+2022-03-06 11:46:05.390746 (Thread-2): 11:46:05  Using snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"
+2022-03-06 11:46:05.390868 (Thread-2): 11:46:05  On test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select *
+from analytics.dbt_oburke.stg_customers
+where FIRST_NAME is null
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:46:05.390954 (Thread-2): 11:46:05  Opening a new connection, currently in state init
+2022-03-06 11:46:05.392512 (Thread-4): 11:46:05  Using snowflake connection "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"
+2022-03-06 11:46:05.392634 (Thread-4): 11:46:05  On test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with child as (
+    select CUSTOMER_ID as from_field
+    from analytics.dbt_oburke.stg_orders
+    where CUSTOMER_ID is not null
+),
+
+parent as (
+    select customer_id as to_field
+    from analytics.dbt_oburke.stg_customers
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:46:05.392716 (Thread-4): 11:46:05  Opening a new connection, currently in state init
+2022-03-06 11:46:05.394104 (Thread-1): 11:46:05  Using snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"
+2022-03-06 11:46:05.394221 (Thread-1): 11:46:05  On test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select *
+from analytics.dbt_oburke.stg_customers
+where CUSTOMER_ID is null
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:46:05.394311 (Thread-1): 11:46:05  Opening a new connection, currently in state closed
+2022-03-06 11:46:05.450297 (Thread-465): handling poll request
+2022-03-06 11:46:05.450700 (Thread-465): 11:46:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefc1b07c0>]}
+2022-03-06 11:46:05.452028 (Thread-465): sending response (<Response 26864 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:06.511430 (Thread-2): 11:46:06  SQL status: SUCCESS 1 in 1.12 seconds
+2022-03-06 11:46:06.514058 (Thread-2): 11:46:06  finished collecting timing info
+2022-03-06 11:46:06.514240 (Thread-2): 11:46:06  On test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b: Close
+2022-03-06 11:46:06.544606 (Thread-4): 11:46:06  SQL status: SUCCESS 1 in 1.15 seconds
+2022-03-06 11:46:06.546233 (Thread-4): 11:46:06  finished collecting timing info
+2022-03-06 11:46:06.546397 (Thread-4): 11:46:06  On test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419: Close
+2022-03-06 11:46:06.671217 (Thread-466): handling poll request
+2022-03-06 11:46:06.671591 (Thread-466): 11:46:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefc1b02b0>]}
+2022-03-06 11:46:06.672171 (Thread-466): sending response (<Response 3040 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:06.723703 (Thread-2): 11:46:06  2 of 5 PASS not_null_stg_customers_FIRST_NAME................................... [PASS in 1.40s]
+2022-03-06 11:46:06.723912 (Thread-2): 11:46:06  Finished running node test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:46:06.724078 (Thread-2): 11:46:06  Began running node test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:46:06.724204 (Thread-2): 11:46:06  5 of 5 START test unique_stg_customers_CUSTOMER_ID.............................. [RUN]
+2022-03-06 11:46:06.724443 (Thread-2): 11:46:06  Acquiring new snowflake connection "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"
+2022-03-06 11:46:06.724534 (Thread-2): 11:46:06  Began compiling node test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:46:06.724622 (Thread-2): 11:46:06  Compiling test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:46:06.731950 (Thread-2): 11:46:06  Writing injected SQL for node "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"
+2022-03-06 11:46:06.733226 (Thread-3): 11:46:06  SQL status: SUCCESS 1 in 1.34 seconds
+2022-03-06 11:46:06.734898 (Thread-3): 11:46:06  finished collecting timing info
+2022-03-06 11:46:06.735098 (Thread-3): 11:46:06  On test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6: Close
+2022-03-06 11:46:06.744521 (Thread-2): 11:46:06  finished collecting timing info
+2022-03-06 11:46:06.744724 (Thread-2): 11:46:06  Began executing node test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:46:06.746719 (Thread-2): 11:46:06  Writing runtime SQL for node "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"
+2022-03-06 11:46:06.748068 (Thread-1): 11:46:06  SQL status: SUCCESS 1 in 1.35 seconds
+2022-03-06 11:46:06.749626 (Thread-1): 11:46:06  finished collecting timing info
+2022-03-06 11:46:06.749863 (Thread-1): 11:46:06  On test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3: Close
+2022-03-06 11:46:06.758521 (Thread-2): 11:46:06  Using snowflake connection "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"
+2022-03-06 11:46:06.758686 (Thread-2): 11:46:06  On test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    CUSTOMER_ID as unique_field,
+    count(*) as n_records
+
+from analytics.dbt_oburke.stg_customers
+where CUSTOMER_ID is not null
+group by CUSTOMER_ID
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:46:06.758784 (Thread-2): 11:46:06  Opening a new connection, currently in state closed
+2022-03-06 11:46:06.766043 (Thread-4): 11:46:06  4 of 5 PASS relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_ [PASS in 1.43s]
+2022-03-06 11:46:06.766215 (Thread-4): 11:46:06  Finished running node test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:46:06.946315 (Thread-3): 11:46:06  3 of 5 PASS not_null_stg_customers_LAST_NAME.................................... [PASS in 1.61s]
+2022-03-06 11:46:06.946521 (Thread-3): 11:46:06  Finished running node test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:46:06.965910 (Thread-1): 11:46:06  1 of 5 PASS not_null_stg_customers_CUSTOMER_ID.................................. [PASS in 1.65s]
+2022-03-06 11:46:06.966098 (Thread-1): 11:46:06  Finished running node test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:46:07.422007 (Thread-2): 11:46:07  SQL status: SUCCESS 1 in 0.66 seconds
+2022-03-06 11:46:07.423609 (Thread-2): 11:46:07  finished collecting timing info
+2022-03-06 11:46:07.423773 (Thread-2): 11:46:07  On test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914: Close
+2022-03-06 11:46:07.629984 (Thread-2): 11:46:07  5 of 5 PASS unique_stg_customers_CUSTOMER_ID.................................... [PASS in 0.91s]
+2022-03-06 11:46:07.630185 (Thread-2): 11:46:07  Finished running node test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:46:07.631905 (MainThread): 11:46:07  Acquiring new snowflake connection "master"
+2022-03-06 11:46:07.632244 (MainThread): 11:46:07  
+2022-03-06 11:46:07.632352 (MainThread): 11:46:07  Finished running 5 tests in 3.48s.
+2022-03-06 11:46:07.632442 (MainThread): 11:46:07  Connection 'master' was properly closed.
+2022-03-06 11:46:07.632509 (MainThread): 11:46:07  Connection 'test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3' was properly closed.
+2022-03-06 11:46:07.632572 (MainThread): 11:46:07  Connection 'test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914' was properly closed.
+2022-03-06 11:46:07.632633 (MainThread): 11:46:07  Connection 'test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6' was properly closed.
+2022-03-06 11:46:07.632693 (MainThread): 11:46:07  Connection 'test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419' was properly closed.
+2022-03-06 11:46:07.743517 (MainThread): 11:46:07  
+2022-03-06 11:46:07.743745 (MainThread): 11:46:07  Completed successfully
+2022-03-06 11:46:07.743850 (MainThread): 11:46:07  
+2022-03-06 11:46:07.743945 (MainThread): 11:46:07  Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+2022-03-06 11:46:07.895536 (Thread-467): handling poll request
+2022-03-06 11:46:07.895931 (Thread-467): 11:46:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8fcfd00>]}
+2022-03-06 11:46:07.896914 (Thread-467): sending response (<Response 19354 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:09.121074 (Thread-468): handling poll request
+2022-03-06 11:46:09.121510 (Thread-468): 11:46:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8fcfc40>]}
+2022-03-06 11:46:09.122780 (Thread-468): sending response (<Response 14124 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:09.743555 (Thread-469): handling status request
+2022-03-06 11:46:09.743936 (Thread-469): 11:46:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8fca250>]}
+2022-03-06 11:46:09.768023 (Thread-469): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:09.785124 (Thread-470): handling status request
+2022-03-06 11:46:09.785520 (Thread-470): 11:46:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8f7e880>]}
+2022-03-06 11:46:09.786022 (Thread-470): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:50.928760 (Thread-471): handling status request
+2022-03-06 11:46:50.929162 (Thread-471): 11:46:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefc16bf70>]}
+2022-03-06 11:46:50.929654 (Thread-471): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:51.150472 (Thread-472): handling run_sql request
+2022-03-06 11:46:51.150850 (Thread-472): 11:46:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8fd9370>]}
+2022-03-06 11:46:53.345888 (Thread-472): sending response (<Response 138 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:46:53.371102 (MainThread): dbt runtime exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/task_handler.py", line 102, in task_exec
+    result = self.task.handle_request()
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 164, in handle_request
+    node = self._get_exec_node()
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 125, in _get_exec_node
+    add_new_refs(
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 50, in add_new_refs
+    process_node(config, manifest, node)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/parser/manifest.py", line 1278, in process_node
+    _process_refs_for_node(manifest, config.project_name, node)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/parser/manifest.py", line 1163, in _process_refs_for_node
+    invalid_ref_fail_unless_test(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/parser/manifest.py", line 901, in invalid_ref_fail_unless_test
+    ref_target_not_found(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/exceptions.py", line 620, in ref_target_not_found
+    raise_compiler_error(msg, model)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/exceptions.py", line 454, in raise_compiler_error
+    raise CompilationException(msg, node)
+dbt.exceptions.CompilationException: Compilation Error in rpc request (from remote system)
+  Rpc 'rpc.dbt_fundementals_course.request' (from remote system) depends on a node named 'stg_customer' which was not found
+2022-03-06 11:46:53.587687 (Thread-473): handling poll request
+2022-03-06 11:46:53.588148 (Thread-473): 11:46:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefc12dbb0>]}
+2022-03-06 11:46:53.588885 (Thread-473): sending response (<Response 2649 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:02.342096 (Thread-474): handling status request
+2022-03-06 11:47:02.342516 (Thread-474): 11:47:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefc0fc430>]}
+2022-03-06 11:47:02.343043 (Thread-474): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:02.579846 (Thread-475): handling run_sql request
+2022-03-06 11:47:02.580259 (Thread-475): 11:47:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefc0ef880>]}
+2022-03-06 11:47:04.817131 (Thread-475): sending response (<Response 138 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:04.844064 (MainThread): 11:47:04  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1d6d10d5-6089-4940-8f54-08ff2f88b8f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb68993d30>]}
+2022-03-06 11:47:04.844692 (MainThread): 11:47:04  Found 6 models, 28 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-03-06 11:47:04.845343 (Thread-1): 11:47:04  Acquiring new snowflake connection "rpc.dbt_fundementals_course.request"
+2022-03-06 11:47:04.845497 (Thread-1): 11:47:04  Began compiling node rpc.dbt_fundementals_course.request
+2022-03-06 11:47:04.845597 (Thread-1): 11:47:04  Compiling rpc.dbt_fundementals_course.request
+2022-03-06 11:47:04.847771 (Thread-1): 11:47:04  finished collecting timing info
+2022-03-06 11:47:04.847908 (Thread-1): 11:47:04  Began executing node rpc.dbt_fundementals_course.request
+2022-03-06 11:47:04.848523 (Thread-1): 11:47:04  Using snowflake connection "rpc.dbt_fundementals_course.request"
+2022-03-06 11:47:04.848615 (Thread-1): 11:47:04  On rpc.dbt_fundementals_course.request: /* This test is pretty contrived, but example of building a specific test */
+
+SELECT
+  *
+FROM analytics.dbt_oburke.stg_customers
+WHERE len(last_name) != 2
+limit 500
+/* limit added automatically by dbt cloud */
+2022-03-06 11:47:04.848697 (Thread-1): 11:47:04  Opening a new connection, currently in state init
+2022-03-06 11:47:05.035827 (Thread-476): handling poll request
+2022-03-06 11:47:05.036290 (Thread-476): 11:47:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefc16e910>]}
+2022-03-06 11:47:05.037206 (Thread-476): sending response (<Response 3940 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:05.812870 (Thread-1): 11:47:05  SQL status: SUCCESS 0 in 0.96 seconds
+2022-03-06 11:47:05.814536 (Thread-1): 11:47:05  finished collecting timing info
+2022-03-06 11:47:05.814753 (Thread-1): 11:47:05  On rpc.dbt_fundementals_course.request: Close
+2022-03-06 11:47:06.331286 (Thread-477): handling poll request
+2022-03-06 11:47:06.331663 (Thread-477): 11:47:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf4c150910>]}
+2022-03-06 11:47:06.333307 (Thread-477): sending response (<Response 4062 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:09.378667 (Thread-478): 11:47:09  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-03-06 11:47:09.379211 (Thread-478): 11:47:09  Partial parsing: updated file: dbt_fundementals_course://tests/assert_last_name_format.sql
+2022-03-06 11:47:09.431140 (Thread-478): 11:47:09  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf4c09cee0>]}
+2022-03-06 11:47:09.914553 (Thread-479): handling status request
+2022-03-06 11:47:09.914956 (Thread-479): 11:47:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf4c3edbe0>]}
+2022-03-06 11:47:09.915458 (Thread-479): sending response (<Response 1275 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:09.946278 (Thread-480): handling status request
+2022-03-06 11:47:09.946656 (Thread-480): 11:47:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf4c3ed340>]}
+2022-03-06 11:47:09.947127 (Thread-480): sending response (<Response 1275 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:11.306412 (Thread-481): handling status request
+2022-03-06 11:47:11.306799 (Thread-481): 11:47:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf4c3ed3a0>]}
+2022-03-06 11:47:11.307275 (Thread-481): sending response (<Response 1275 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:11.544804 (Thread-482): handling status request
+2022-03-06 11:47:11.545196 (Thread-482): 11:47:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf4c3ed7f0>]}
+2022-03-06 11:47:11.545715 (Thread-482): sending response (<Response 1275 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:11.552291 (Thread-483): handling cli_args request
+2022-03-06 11:47:11.552619 (Thread-483): 11:47:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfac103eb0>]}
+2022-03-06 11:47:13.784545 (Thread-483): sending response (<Response 138 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:13.888222 (MainThread): 11:47:13  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-06 11:47:13.888683 (MainThread): 11:47:13  Partial parsing enabled, no changes found, skipping parsing
+2022-03-06 11:47:13.896340 (MainThread): 11:47:13  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a3d3c40b-407a-4820-8a82-1aba35895b39', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e895b6c10>]}
+2022-03-06 11:47:13.927598 (MainThread): 11:47:13  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a3d3c40b-407a-4820-8a82-1aba35895b39', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e89616970>]}
+2022-03-06 11:47:13.927941 (MainThread): 11:47:13  Found 6 models, 29 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-03-06 11:47:13.929864 (MainThread): 11:47:13  
+2022-03-06 11:47:13.930216 (MainThread): 11:47:13  Acquiring new snowflake connection "master"
+2022-03-06 11:47:13.931464 (ThreadPoolExecutor-1_0): 11:47:13  Acquiring new snowflake connection "list_analytics_dbt_oburke"
+2022-03-06 11:47:13.944337 (ThreadPoolExecutor-1_0): 11:47:13  Using snowflake connection "list_analytics_dbt_oburke"
+2022-03-06 11:47:13.944478 (ThreadPoolExecutor-1_0): 11:47:13  On list_analytics_dbt_oburke: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "connection_name": "list_analytics_dbt_oburke"} */
+
+    show terse objects in analytics.dbt_oburke
+2022-03-06 11:47:13.944586 (ThreadPoolExecutor-1_0): 11:47:13  Opening a new connection, currently in state init
+2022-03-06 11:47:14.011673 (Thread-484): handling poll request
+2022-03-06 11:47:14.012142 (Thread-484): 11:47:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf4c3ed7c0>]}
+2022-03-06 11:47:14.013114 (Thread-484): sending response (<Response 4194 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:14.893685 (ThreadPoolExecutor-1_0): 11:47:14  SQL status: SUCCESS 6 in 0.95 seconds
+2022-03-06 11:47:14.895876 (ThreadPoolExecutor-1_0): 11:47:14  On list_analytics_dbt_oburke: Close
+2022-03-06 11:47:15.106572 (MainThread): 11:47:15  Concurrency: 4 threads (target='default')
+2022-03-06 11:47:15.106765 (MainThread): 11:47:15  
+2022-03-06 11:47:15.110011 (Thread-1): 11:47:15  Began running node test.dbt_fundementals_course.assert_last_name_format
+2022-03-06 11:47:15.110232 (Thread-1): 11:47:15  1 of 6 START test assert_last_name_format....................................... [RUN]
+2022-03-06 11:47:15.110539 (Thread-1): 11:47:15  Acquiring new snowflake connection "test.dbt_fundementals_course.assert_last_name_format"
+2022-03-06 11:47:15.110663 (Thread-1): 11:47:15  Began compiling node test.dbt_fundementals_course.assert_last_name_format
+2022-03-06 11:47:15.110789 (Thread-1): 11:47:15  Compiling test.dbt_fundementals_course.assert_last_name_format
+2022-03-06 11:47:15.113856 (Thread-1): 11:47:15  Writing injected SQL for node "test.dbt_fundementals_course.assert_last_name_format"
+2022-03-06 11:47:15.114211 (Thread-2): 11:47:15  Began running node test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:47:15.114404 (Thread-2): 11:47:15  2 of 6 START test not_null_stg_customers_CUSTOMER_ID............................ [RUN]
+2022-03-06 11:47:15.114710 (Thread-2): 11:47:15  Acquiring new snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"
+2022-03-06 11:47:15.114829 (Thread-2): 11:47:15  Began compiling node test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:47:15.114917 (Thread-2): 11:47:15  Compiling test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:47:15.125023 (Thread-3): 11:47:15  Began running node test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:47:15.125224 (Thread-3): 11:47:15  3 of 6 START test not_null_stg_customers_FIRST_NAME............................. [RUN]
+2022-03-06 11:47:15.125523 (Thread-3): 11:47:15  Acquiring new snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"
+2022-03-06 11:47:15.125617 (Thread-3): 11:47:15  Began compiling node test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:47:15.125741 (Thread-3): 11:47:15  Compiling test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:47:15.130117 (Thread-4): 11:47:15  Began running node test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:47:15.130314 (Thread-4): 11:47:15  4 of 6 START test not_null_stg_customers_LAST_NAME.............................. [RUN]
+2022-03-06 11:47:15.130613 (Thread-4): 11:47:15  Acquiring new snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"
+2022-03-06 11:47:15.130707 (Thread-4): 11:47:15  Began compiling node test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:47:15.130792 (Thread-4): 11:47:15  Compiling test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:47:15.134047 (Thread-4): 11:47:15  Writing injected SQL for node "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"
+2022-03-06 11:47:15.134923 (Thread-2): 11:47:15  Writing injected SQL for node "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"
+2022-03-06 11:47:15.135311 (Thread-3): 11:47:15  Writing injected SQL for node "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"
+2022-03-06 11:47:15.140562 (Thread-1): 11:47:15  finished collecting timing info
+2022-03-06 11:47:15.140738 (Thread-1): 11:47:15  Began executing node test.dbt_fundementals_course.assert_last_name_format
+2022-03-06 11:47:15.157019 (Thread-1): 11:47:15  Writing runtime SQL for node "test.dbt_fundementals_course.assert_last_name_format"
+2022-03-06 11:47:15.157331 (Thread-3): 11:47:15  finished collecting timing info
+2022-03-06 11:47:15.157527 (Thread-3): 11:47:15  Began executing node test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:47:15.159291 (Thread-3): 11:47:15  Writing runtime SQL for node "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"
+2022-03-06 11:47:15.161455 (Thread-4): 11:47:15  finished collecting timing info
+2022-03-06 11:47:15.161620 (Thread-4): 11:47:15  Began executing node test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:47:15.163279 (Thread-4): 11:47:15  Writing runtime SQL for node "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"
+2022-03-06 11:47:15.163504 (Thread-2): 11:47:15  finished collecting timing info
+2022-03-06 11:47:15.163648 (Thread-2): 11:47:15  Began executing node test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:47:15.165180 (Thread-2): 11:47:15  Writing runtime SQL for node "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"
+2022-03-06 11:47:15.169774 (Thread-1): 11:47:15  Using snowflake connection "test.dbt_fundementals_course.assert_last_name_format"
+2022-03-06 11:47:15.169909 (Thread-1): 11:47:15  On test.dbt_fundementals_course.assert_last_name_format: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.assert_last_name_format"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      /* This test is pretty contrived, but example of building a specific test */
+
+SELECT
+  *
+FROM analytics.dbt_oburke.stg_customers
+WHERE len(last_name) != 2
+      
+    ) dbt_internal_test
+2022-03-06 11:47:15.170012 (Thread-1): 11:47:15  Opening a new connection, currently in state closed
+2022-03-06 11:47:15.171539 (Thread-3): 11:47:15  Using snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"
+2022-03-06 11:47:15.171650 (Thread-3): 11:47:15  On test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select *
+from analytics.dbt_oburke.stg_customers
+where FIRST_NAME is null
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:47:15.171733 (Thread-3): 11:47:15  Opening a new connection, currently in state init
+2022-03-06 11:47:15.180340 (Thread-2): 11:47:15  Using snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"
+2022-03-06 11:47:15.180503 (Thread-2): 11:47:15  On test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select *
+from analytics.dbt_oburke.stg_customers
+where CUSTOMER_ID is null
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:47:15.180598 (Thread-2): 11:47:15  Opening a new connection, currently in state init
+2022-03-06 11:47:15.181984 (Thread-4): 11:47:15  Using snowflake connection "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"
+2022-03-06 11:47:15.182101 (Thread-4): 11:47:15  On test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select *
+from analytics.dbt_oburke.stg_customers
+where LAST_NAME is null
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:47:15.182184 (Thread-4): 11:47:15  Opening a new connection, currently in state init
+2022-03-06 11:47:15.311511 (Thread-485): handling poll request
+2022-03-06 11:47:15.311894 (Thread-485): 11:47:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf4c1c8e50>]}
+2022-03-06 11:47:15.313001 (Thread-485): sending response (<Response 25235 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:16.280109 (Thread-2): 11:47:16  SQL status: SUCCESS 1 in 1.1 seconds
+2022-03-06 11:47:16.282666 (Thread-2): 11:47:16  finished collecting timing info
+2022-03-06 11:47:16.282843 (Thread-2): 11:47:16  On test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3: Close
+2022-03-06 11:47:16.284369 (Thread-4): 11:47:16  SQL status: SUCCESS 1 in 1.1 seconds
+2022-03-06 11:47:16.285731 (Thread-4): 11:47:16  finished collecting timing info
+2022-03-06 11:47:16.285882 (Thread-4): 11:47:16  On test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6: Close
+2022-03-06 11:47:16.444157 (Thread-3): 11:47:16  SQL status: SUCCESS 1 in 1.27 seconds
+2022-03-06 11:47:16.445806 (Thread-3): 11:47:16  finished collecting timing info
+2022-03-06 11:47:16.445980 (Thread-3): 11:47:16  On test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b: Close
+2022-03-06 11:47:16.494663 (Thread-2): 11:47:16  2 of 6 PASS not_null_stg_customers_CUSTOMER_ID.................................. [PASS in 1.38s]
+2022-03-06 11:47:16.494877 (Thread-2): 11:47:16  Finished running node test.dbt_fundementals_course.not_null_stg_customers_CUSTOMER_ID.2ac213e7d3
+2022-03-06 11:47:16.495033 (Thread-2): 11:47:16  Began running node test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:47:16.495164 (Thread-2): 11:47:16  5 of 6 START test relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_ [RUN]
+2022-03-06 11:47:16.495405 (Thread-2): 11:47:16  Acquiring new snowflake connection "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"
+2022-03-06 11:47:16.495496 (Thread-2): 11:47:16  Began compiling node test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:47:16.495584 (Thread-2): 11:47:16  Compiling test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:47:16.504336 (Thread-2): 11:47:16  Writing injected SQL for node "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"
+2022-03-06 11:47:16.508170 (Thread-4): 11:47:16  4 of 6 PASS not_null_stg_customers_LAST_NAME.................................... [PASS in 1.38s]
+2022-03-06 11:47:16.508398 (Thread-4): 11:47:16  Finished running node test.dbt_fundementals_course.not_null_stg_customers_LAST_NAME.9cb7e553a6
+2022-03-06 11:47:16.508626 (Thread-4): 11:47:16  Began running node test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:47:16.508825 (Thread-4): 11:47:16  6 of 6 START test unique_stg_customers_CUSTOMER_ID.............................. [RUN]
+2022-03-06 11:47:16.509183 (Thread-4): 11:47:16  Acquiring new snowflake connection "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"
+2022-03-06 11:47:16.509339 (Thread-4): 11:47:16  Began compiling node test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:47:16.509483 (Thread-4): 11:47:16  Compiling test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:47:16.518966 (Thread-4): 11:47:16  Writing injected SQL for node "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"
+2022-03-06 11:47:16.526115 (Thread-2): 11:47:16  finished collecting timing info
+2022-03-06 11:47:16.526295 (Thread-2): 11:47:16  Began executing node test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:47:16.527900 (Thread-2): 11:47:16  Writing runtime SQL for node "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"
+2022-03-06 11:47:16.532821 (Thread-4): 11:47:16  finished collecting timing info
+2022-03-06 11:47:16.533073 (Thread-4): 11:47:16  Began executing node test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:47:16.536617 (Thread-4): 11:47:16  Writing runtime SQL for node "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"
+2022-03-06 11:47:16.544155 (Thread-2): 11:47:16  Using snowflake connection "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"
+2022-03-06 11:47:16.544290 (Thread-2): 11:47:16  On test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with child as (
+    select CUSTOMER_ID as from_field
+    from analytics.dbt_oburke.stg_orders
+    where CUSTOMER_ID is not null
+),
+
+parent as (
+    select customer_id as to_field
+    from analytics.dbt_oburke.stg_customers
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:47:16.544385 (Thread-2): 11:47:16  Opening a new connection, currently in state closed
+2022-03-06 11:47:16.550374 (Thread-4): 11:47:16  Using snowflake connection "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"
+2022-03-06 11:47:16.550582 (Thread-4): 11:47:16  On test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    CUSTOMER_ID as unique_field,
+    count(*) as n_records
+
+from analytics.dbt_oburke.stg_customers
+where CUSTOMER_ID is not null
+group by CUSTOMER_ID
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+2022-03-06 11:47:16.550753 (Thread-4): 11:47:16  Opening a new connection, currently in state closed
+2022-03-06 11:47:16.633052 (Thread-1): 11:47:16  SQL status: SUCCESS 1 in 1.46 seconds
+2022-03-06 11:47:16.634699 (Thread-1): 11:47:16  finished collecting timing info
+2022-03-06 11:47:16.634876 (Thread-1): 11:47:16  On test.dbt_fundementals_course.assert_last_name_format: Close
+2022-03-06 11:47:16.659155 (Thread-3): 11:47:16  3 of 6 PASS not_null_stg_customers_FIRST_NAME................................... [PASS in 1.53s]
+2022-03-06 11:47:16.659357 (Thread-3): 11:47:16  Finished running node test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b
+2022-03-06 11:47:16.871774 (Thread-1): 11:47:16  1 of 6 PASS assert_last_name_format............................................. [PASS in 1.76s]
+2022-03-06 11:47:16.871982 (Thread-1): 11:47:16  Finished running node test.dbt_fundementals_course.assert_last_name_format
+2022-03-06 11:47:17.069125 (Thread-486): handling poll request
+2022-03-06 11:47:17.069515 (Thread-486): 11:47:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf4c289490>]}
+2022-03-06 11:47:17.070479 (Thread-486): sending response (<Response 22494 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:17.374436 (Thread-2): 11:47:17  SQL status: SUCCESS 1 in 0.83 seconds
+2022-03-06 11:47:17.376158 (Thread-2): 11:47:17  finished collecting timing info
+2022-03-06 11:47:17.376346 (Thread-2): 11:47:17  On test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419: Close
+2022-03-06 11:47:17.378729 (Thread-4): 11:47:17  SQL status: SUCCESS 1 in 0.83 seconds
+2022-03-06 11:47:17.380170 (Thread-4): 11:47:17  finished collecting timing info
+2022-03-06 11:47:17.380326 (Thread-4): 11:47:17  On test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914: Close
+2022-03-06 11:47:17.587254 (Thread-2): 11:47:17  5 of 6 PASS relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_ [PASS in 1.09s]
+2022-03-06 11:47:17.587453 (Thread-2): 11:47:17  Finished running node test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419
+2022-03-06 11:47:17.596598 (Thread-4): 11:47:17  6 of 6 PASS unique_stg_customers_CUSTOMER_ID.................................... [PASS in 1.09s]
+2022-03-06 11:47:17.596769 (Thread-4): 11:47:17  Finished running node test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914
+2022-03-06 11:47:17.598386 (MainThread): 11:47:17  Acquiring new snowflake connection "master"
+2022-03-06 11:47:17.598765 (MainThread): 11:47:17  
+2022-03-06 11:47:17.598869 (MainThread): 11:47:17  Finished running 6 tests in 3.67s.
+2022-03-06 11:47:17.598955 (MainThread): 11:47:17  Connection 'master' was properly closed.
+2022-03-06 11:47:17.599023 (MainThread): 11:47:17  Connection 'test.dbt_fundementals_course.assert_last_name_format' was properly closed.
+2022-03-06 11:47:17.599088 (MainThread): 11:47:17  Connection 'test.dbt_fundementals_course.relationships_stg_orders_CUSTOMER_ID__customer_id__ref_stg_customers_.0561057419' was properly closed.
+2022-03-06 11:47:17.599150 (MainThread): 11:47:17  Connection 'test.dbt_fundementals_course.not_null_stg_customers_FIRST_NAME.225fa2cd0b' was properly closed.
+2022-03-06 11:47:17.599213 (MainThread): 11:47:17  Connection 'test.dbt_fundementals_course.unique_stg_customers_CUSTOMER_ID.297690f914' was properly closed.
+2022-03-06 11:47:17.648307 (MainThread): 11:47:17  
+2022-03-06 11:47:17.648545 (MainThread): 11:47:17  Completed successfully
+2022-03-06 11:47:17.648656 (MainThread): 11:47:17  
+2022-03-06 11:47:17.648751 (MainThread): 11:47:17  Done. PASS=6 WARN=0 ERROR=0 SKIP=0 TOTAL=6
+2022-03-06 11:47:18.283839 (Thread-487): handling poll request
+2022-03-06 11:47:18.284249 (Thread-487): 11:47:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefc28e400>]}
+2022-03-06 11:47:18.285909 (Thread-487): sending response (<Response 25329 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:18.856608 (Thread-488): handling status request
+2022-03-06 11:47:18.857001 (Thread-488): 11:47:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefc286d30>]}
+2022-03-06 11:47:18.857512 (Thread-488): sending response (<Response 1275 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:18.905826 (Thread-489): handling status request
+2022-03-06 11:47:18.906203 (Thread-489): 11:47:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfac0f0130>]}
+2022-03-06 11:47:18.906661 (Thread-489): sending response (<Response 1275 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:59.177863 (Thread-490): 11:47:59  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-06 11:47:59.178101 (Thread-490): 11:47:59  Partial parsing enabled, no changes found, skipping parsing
+2022-03-06 11:47:59.184581 (Thread-490): 11:47:59  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced87b7fa0>]}
+2022-03-06 11:47:59.736770 (Thread-491): handling status request
+2022-03-06 11:47:59.737165 (Thread-491): 11:47:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf8c0c0520>]}
+2022-03-06 11:47:59.737650 (Thread-491): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:47:59.839960 (Thread-492): handling status request
+2022-03-06 11:47:59.840331 (Thread-492): 11:47:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8949880>]}
+2022-03-06 11:47:59.840813 (Thread-492): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
+2022-03-06 11:48:16.581557 (Thread-493): handling status request
+2022-03-06 11:48:16.581981 (Thread-493): 11:48:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b7d8fe65-ea89-4b8a-927f-94523d2877c7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8c467c0>]}
+2022-03-06 11:48:16.582458 (Thread-493): sending response (<Response 1244 bytes [200 OK]>) to 10.0.4.179
