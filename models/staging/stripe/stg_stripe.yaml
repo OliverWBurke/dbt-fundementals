@@ -10,6 +10,9 @@ models:
         - name: ORDER_ID
           tests:
             - not_null
+            - relationships:
+                to: ref("stg_orders")
+                field: order_id
         - name: PAYMENT_METHOD
           tests:
             - accepted_values:

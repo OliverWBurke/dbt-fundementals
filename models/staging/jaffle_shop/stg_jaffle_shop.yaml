@@ -22,6 +22,9 @@ models:
         - name: CUSTOMER_ID
           tests:
             - not_null
+            - relationships:
+                to: ref("stg_customers")
+                field: customer_id
         - name: ORDER_DATE
           tests:
             - not_null
