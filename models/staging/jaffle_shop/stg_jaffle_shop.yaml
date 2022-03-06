@@ -1,0 +1,37 @@
+version: 2
+
+models:
+    - name: stg_customers
+      columns:
+        - name: CUSTOMER_ID
+          tests:
+            - unique
+            - not_null
+        - name: FIRST_NAME
+          tests:
+            - not_null
+        - name: LAST_NAME
+          tests:
+            - not_null
+    - name: stg_orders
+      columns: 
+        - name: ORDER_ID
+          tests:
+            - not_null
+            - unique
+        - name: CUSTOMER_ID
+          tests:
+            - not_null
+        - name: ORDER_DATE
+          tests:
+            - not_null
+        - name: STATUS
+          tests:
+            - accepted_values:
+                values:
+                  - returned
+                  - completed
+                  - return_pending
+                  - shipped
+                  - placed
+          

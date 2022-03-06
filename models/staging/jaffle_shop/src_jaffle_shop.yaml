@@ -6,7 +6,42 @@ sources:
       schema: jaffle_shop
       tables:
         - name: customers
+          description: This is where we have raw data about our customers
+          columns:
+          - name : id
+            description: This is the ID for a particular customer, it should be unique
+            tests:
+              - unique
+              - not_null
+          - name: first_name
+            description: this is the customers first name
+            tests:
+              - not_null
+          - name: last_name
+            description: this is the customers last name
+            tests:
+              - not_null
+
         - name: orders
+          description: This is all of the orders we have taken
+          columns:
+            - name: ID
+              description: This is the order id
+              tests:
+                - unique
+                - not_null
+            - name: USER_ID
+              decription: This is the ID of the customer who placed the order
+              tests:
+                - not_null
+            - name: ORDER_DATE
+              description: This is the date that the order was placed
+              tests:
+                - not_null
+            - name: STATUS
+              description: This is the current status of the order
+              tests:
+                - not_null
           loaded_at_field: _ETL_LOADED_AT
           freshness:
             warn_after: { count: 6, period: hour }
