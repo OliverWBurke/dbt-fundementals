@@ -4,8 +4,10 @@ sources:
     - name: stripe
       database: raw
       schema: stripe
+      description: "{{ doc('stripe_overview') }}"
       tables:
         - name: payment
+          description: "{{ doc('stripe_payments') }}"
           loaded_at_field: _batched_at
           freshness:
             warn_after: {count: 18, period: hour}
